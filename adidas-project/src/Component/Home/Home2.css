@@ -1,0 +1,147 @@
+.Home-container2{
+    position: relative;
+    bottom: 13rem;
+}
+.heading{
+    text-align: center;
+    font-size: 2.1rem;
+     font-family: "AdihausDIN-CnBoldItalic","AdihausDIN Cn",Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style:italic;
+    line-height: 1;
+     transform: scale(0.9, 1.2);
+     /* margin-top: 50px; */
+     margin-top: 4%;
+    
+}
+
+.ul-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(45, 44, 44);
+    justify-content: center;
+    /* margin-top: 30px; */
+    margin-top: 3%;
+    
+}
+.ul-list > li{
+border: 1px solid rgb(195, 191, 191);
+padding: 10px;
+}
+.ul-list > li:hover{
+    border: 1px solid black;
+}
+.category-heading{
+    font-size: 2.1rem;
+     font-family: "AdihausDIN-CnBoldItalic","AdihausDIN Cn",Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style:italic;
+     transform: scale(0.9, 1.2);
+     /* margin: 50px 0px 0px -10px; */
+     width: 35rem;
+     /* border: 1px solid ; */
+     position: relative;
+     bottom: 20px;
+}
+.category-container{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-gap: 13px;
+ margin:22px 16px;
+}
+
+.category-img{
+ width: 400px;
+ height: 350px;
+ border-radius: 10px;
+ /* border: 1px solid red; */
+}
+.text-center{
+ text-align: center;
+ position: relative;
+ bottom: 180px;
+ font-size: 18px;
+ color: white;
+ font-weight: 900;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.still-intrested{
+    font-size: 2.1rem;
+     font-family: "AdihausDIN-CnBoldItalic","AdihausDIN Cn",Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style:italic;
+     transform: scale(0.9, 1.2);
+     position: relative;
+     bottom: 30px;
+     right: 40px;
+}
+.products-container{
+    display: flex;
+    gap: 15px;
+    margin: 0px 20px;
+    margin-bottom: 5px;
+}
+.product-1,.product-2,.product-3,.product-4{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* border: 1px solid red; */
+}
+.align-products{
+    width: 293px;
+    
+}
+.products-container>div:hover{
+  border: 1px solid rgb(7, 7, 7);
+
+}
+.price-tag{
+    background-color: rgb(238, 240, 241);
+    padding:4px 10px;
+    width: 60px;
+    position: relative;
+    left: 10px;
+    bottom: 35px;
+}
+.description{
+    position: relative;
+    bottom:40px;
+    left: 10px;
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    color: black;
+}
+.title{
+    position: relative;
+    bottom:50px;
+    left: 10px;
+    color: rgb(153, 150, 150);
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.separator-bar{
+    width: 150px;
+    height: 3px;
+    background-color: rgb(115, 118, 118);
+    position: relative;
+    bottom: 154px;
+    margin: auto;
+    border-radius: 30%;
+    
+}
+.blob{
+    width: 50px;
+    height: 10px;
+    background-color: rgb(39, 129, 129);
+    position: relative;
+    bottom: 160px;
+    margin: auto;
+    border-radius: 20px;
+  
+    
+}
+
+
+
+

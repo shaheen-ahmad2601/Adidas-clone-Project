@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* border: 1px solid; */
+   margin: auto;
+}
+.container > .single-div {
+   margin-left: 45px;
+   height: 400px;
+}
+.description{
+    position: relative;
+    top: 0px;
+}

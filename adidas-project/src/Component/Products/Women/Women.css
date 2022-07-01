@@ -1,0 +1,123 @@
+.women-container1{
+    margin: auto;
+    position: relative;
+    height: 81vh;
+    margin-bottom: 280px;
+    background-image: url("https://cms.qz.com/wp-content/uploads/2016/01/pureboost-x-running-12-cropped.jpg?quality=75&strip=all&w=1200&h=630&crop=1");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: 1265px 540px;
+    
+ }
+
+ 
+ .text-wrapper1-women{
+     padding: 20px;
+     display: inline-block;
+     position: relative;
+    top: 140px;
+     height: 450px;
+ }
+ 
+
+ .text-wrapper1-women h1{
+     color: rgb(255, 255, 255) !important;
+     display: inline-block;
+     font-size: 2.5rem;
+     width: 28rem;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: relative;
+     
+ }
+
+.text-wrapper1-women p{
+    color: rgb(249, 249, 249) !important;
+     width: 33rem;
+     font-size: 18px;
+     text-align: left;
+     position: relative;
+     bottom: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .women-container1 .women-btn1{
+     width: 184px;
+     height: 50px;
+     color: rgb(41, 40, 40);
+     background-color: rgb(255, 255, 255);
+     box-shadow: rgb(181, 181, 7) 5px 5px 0px;
+     transition: transform 200ms, box-shadow 200ms;
+     border-style: none;
+     font-weight: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: relative;
+     top: 25px;
+     letter-spacing: 2px;
+     text-align: left;
+     font-size: 12px;
+ }
+ .women-container1 .div1-btn1:hover{
+   color: rgb(90, 90, 90);
+ }
+ .women-container1 .div1-btn2{
+     width: 200px;
+     height: 50px;
+     color: rgb(41, 40, 40);
+     background-color: rgb(255, 255, 255);
+     box-shadow: rgb(210, 210, 9) 5px 5px 0px;
+ 
+     transition: transform 200ms, box-shadow 200ms;
+     border-style: none;
+     font-weight: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: relative;
+     bottom: 15px;
+     letter-spacing: 2px;
+     text-align: left;
+     font-size: 12px;
+ }
+ .women-container1 .div1-btn2:hover{
+   color: rgb(86, 84, 84);
+ }
+ .women-btn-container{
+     position: relative;
+     bottom: 4.5rem;
+ }
+ .women-btn1:active  {
+     transform: translateY(4px) translateX(4px);
+   }
+ 
+
+.subcomponent-women-category{
+    display: flex;
+    width: 95%;
+    gap: 10px;
+    margin: auto;
+    margin-top: -20%;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+
+.women-product-container:hover{
+    border: 1px solid rgb(16, 16, 16);
+   /* height: 400px; */
+  
+}
+.div-image{
+    width: 290px;
+    height: 350px;
+}
+.description-div{
+    /* border: 1px solid; */
+    padding-left:5px ;
+}
+.make-space{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.shop-now{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+}

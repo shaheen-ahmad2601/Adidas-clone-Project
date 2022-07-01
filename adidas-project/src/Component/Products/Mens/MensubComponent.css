@@ -1,0 +1,47 @@
+ .men-category{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 95%;
+   /* border: 1px solid red; */
+    margin: auto;
+    position: relative;
+    bottom: 130px;
+    margin-top: 50px;
+}
+
+.men-container{
+ margin: 15px;
+ cursor: pointer;
+
+}
+.men-container:hover{
+    border: 1px solid black;
+    
+}
+.men-container > img{
+    width: 270px;
+    height: 260px;
+}
+.men-category-title{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+color: rgb(61, 61, 61);
+font-size: 13px;
+letter-spacing: 1.5px;
+} 
+.men-originals{
+    font-size: 2.1rem;
+    font-family: "AdihausDIN-CnBoldItalic","AdihausDIN Cn",Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   font-style:italic;
+    transform: scale(0.9, 1.2);
+    position: relative;
+    bottom: 30px;
+    right: 40px;
+}
+.originals-container{
+    position: relative;
+    bottom: 100px;
+}

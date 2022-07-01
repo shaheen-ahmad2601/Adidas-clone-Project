@@ -1,0 +1,53 @@
+
+.display{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slide>img{
+    width: 290px;
+}
+.single-div{
+    box-shadow: rgba(222, 223, 216, 0.701) 0px 8px 24px;
+   margin: 10px;
+   height: 370px;
+}
+.single-div:hover{
+    border: 1px solid rgb(54, 54, 54);
+}
+.best-of{
+    font-size: 2.1rem;
+     font-family: "AdihausDIN-CnBoldItalic","AdihausDIN Cn",Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style:italic;
+     transform: scale(0.9, 1.2);
+     position: relative;
+     bottom: 30px;
+     right: 40px;
+     
+}
+.price-tag{
+    background-color: rgb(238, 240, 241);
+    padding:4px 10px;
+    width: 60px;
+    position: relative;
+    left: 10px;
+    bottom: 35px;
+}
+.description{
+    position: relative;
+    bottom:40px;
+    left: 10px;
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    color: black;
+}
+.title{
+    position: relative;
+    bottom:50px;
+    left: 10px;
+    color: rgb(153, 150, 150);
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}

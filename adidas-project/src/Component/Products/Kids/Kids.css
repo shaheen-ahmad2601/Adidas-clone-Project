@@ -1,0 +1,215 @@
+.kids-container1{
+    margin: auto;
+    position: relative;
+    height: 81vh;
+    margin-bottom: 280px;
+    background-image: url("https://tetherproduction.com/wp-content/gallery/adidas-young-athlete/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1265px 750px;
+ }
+ .text-wrapper1-kids{
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+   top: 140px;
+    height: 450px;
+}
+.text-wrapper1-kids h1{
+    color: rgb(188, 180, 34) !important;
+    display: inline-block;
+    font-size: 2.5rem;
+    width: 28rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    
+}
+.text-wrapper1-kids p{
+    color: rgb(249, 249, 249) !important;
+     width: 33rem;
+     font-size: 18px;
+     text-align: left;
+     position: relative;
+     bottom: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.kids-container1 .kids-btn1{
+    width: 184px;
+    height: 50px;
+    color: rgb(41, 40, 40);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(181, 181, 7) 5px 5px 0px;
+    transition: transform 200ms, box-shadow 200ms;
+    border-style: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 35px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 12px;
+}
+.kids-container1 .kids-btn1:hover{
+    color: rgb(90, 90, 90);
+  }
+  .kids-btn1:active  {
+    transform: translateY(4px) translateX(4px);
+  }
+  .subcomponent-kids-category{
+    display: flex;
+    width: 95%;
+    gap: 10px;
+    margin: auto;
+    margin-top: -20%;
+    cursor: pointer;
+   
+    position: relative;
+    top: 40px;
+}
+
+.kids-product-container:hover{
+    border: 1px solid rgb(16, 16, 16);
+    
+   
+  
+}
+.kids-div-image{
+    width: 290px;
+}
+.kids-description-div{
+    /* border: 1px solid; */
+    padding-left:5px ;
+}
+.kids-make-space{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.kids-shop-now{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+
+.kids-products-container{
+    display: flex;
+    gap: 15px;
+    margin: 0px 20px;
+    margin-top: 240px;
+    position: relative;
+    bottom: 50px;
+    
+}
+
+
+.kids-align-products{
+    width: 293px;
+    
+}
+.kids-products-container>div:hover{
+  border: 1px solid rgb(7, 7, 7);
+
+}
+.kids-price-tag{
+    background-color: rgb(238, 240, 241);
+    padding:4px 10px;
+    width: 60px;
+    position: relative;
+    left: 10px;
+    bottom: 35px;
+}
+.kids-description{
+    position: relative;
+    bottom:40px;
+    left: 10px;
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    color: black;
+}
+.kids-title{
+    position: relative;
+    bottom:50px;
+    left: 10px;
+    color: rgb(153, 150, 150);
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.kids-category-heading{
+    font-size: 32px;
+     font-family: "AdihausDIN-CnBoldItalic","AdihausDIN Cn",Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style:italic;
+     transform: scale(0.9, 1.2);
+     /* width: 35rem; */
+     
+     position: relative;
+     top: 120px;
+     right: 50px;
+     
+}
+.kids-category-heading1{
+    font-size: 32px;
+     font-family: "AdihausDIN-CnBoldItalic","AdihausDIN Cn",Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style:italic;
+     transform: scale(0.9, 1.2);
+     /* width: 35rem; */
+     
+     position: relative;
+     top: 30px;
+     right: 50px;
+     /* border: 1px solid red; */
+     /* margin-bottom: 30px; */
+     
+}
+.kids-products-container1{
+    display: flex;
+    gap: 15px;
+    margin: 120px 20px;
+    /* border: 1px solid red; */
+}
+.kids-products-container1>div{
+    position: relative;
+    top: 40px;
+}
+.kids-products-container1>div:hover{
+    border: 1px solid black;
+}
+.f-heading{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.kids-paragrapgh{
+    /* border: 1px solid red; */
+    width: 60%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 280px;
+    top: 10px;
+    text-align:center;
+
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+    text-align: center;
+    
+}
+.footer-section p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.title-bold{
+font-size: larger;
+font-weight: 600;
+}
+.text-bold{
+    font-size: 16px;
+    font-weight: 600;
+}

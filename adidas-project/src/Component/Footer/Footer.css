@@ -1,0 +1,160 @@
+.Footer-di-v {
+    width: 96.3%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #ede734;
+    margin: auto;
+    margin-top: 50px;
+    
+  }
+  .FooterMain-di-v {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .offer-di-v {
+    margin-right: 150px;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  
+  }
+  .offer-title {
+    width: 70%;
+    height: 50%;
+    font-size: 2rem;
+    font-family: "AdineuePRO", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 45px;
+    margin-right: 70px;
+    text-align: end;
+    /* border: 1px solid red; */
+  }
+ 
+  .footer-signUp-option {
+    width: 122px;
+    height: 50%;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+  transition: transform 200ms, box-shadow 200ms;
+  box-shadow: white 4px 4px 0px;
+  position: relative;
+  right: 70px;
+  }
+  .footer-signUp-option:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: white 0px 0px 0px;
+  }
+  i {
+    width: 40px;
+    margin-top: 3px;
+  }
+  .footer-second-container {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: antiquewhite;
+/* margin-bottom: 30px; */
+  }
+  .footer-second-sub-conatiner {
+    width: 70%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .box {
+    width: 20%;
+    height: 80%;
+    margin-top: 20px;
+  }
+  .di-v-title {
+    margin-left: 10px;
+    width: 100%;
+    height: 15%;
+    border: solid 1 px rebeccapurple;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .sub-title {
+    margin-left: 10px;
+    height: 8%;
+    color: black;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .Footer-last-dv {
+    width: 97%;
+    height: 150px;
+    background-color: #363738;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .Footer-last-sub-dv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .conditions-dv {
+    width: 40%;
+    /* height: 30%; */
+    margin-bottom: 84px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 12px;
+    color: #c0c1c2;
+    /* border: 1px solid red; */
+    /* gap: 10px; */
+  }
+  .conditions-dv > .conditions-title{
+      border-right: 1px solid;
+      padding: 5px 15px;
+
+     
+  }
+  .cookies{
+    padding: 5px 15px;
+  }
+  conditions-title {
+    width: 30%;
+    border-right: 2px solid gray;
+    /* border: 1px solid red; */
+  
+  }
+  .conditions-dv1 {
+    font-size: 12px;
+    color: #c0c1c2;
+    letter-spacing: 3px;
+    position: relative;
+    right: 590px;
+    top: 20px;
+    letter-spacing: 0px;
+    font-family: AdihausDIN, "Helvetica", "Arial", sans-serif;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+  
+  }

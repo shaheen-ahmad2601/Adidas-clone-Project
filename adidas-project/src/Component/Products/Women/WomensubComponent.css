@@ -1,0 +1,59 @@
+.women-category{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 95%;
+    /* border: 1px solid rgb(81, 255, 0); */
+    margin: auto;
+    position: relative;
+    bottom: 130px;
+    margin-top: 19rem;
+}
+
+.women-container{
+ margin: 15px;
+ cursor: pointer;
+ /* border-style:groove; */
+}
+.women-container:hover{
+    border: 1px solid black;
+    
+}
+.women-container > img{
+    width: 270px;
+    height: 260px;
+}
+.women-category-title{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+color: rgb(61, 61, 61);
+font-size: 13px;
+letter-spacing: 1.5px;
+} 
+.women-originals{
+    font-size: 2.1rem;
+    font-family: "AdihausDIN-CnBoldItalic","AdihausDIN Cn",Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   font-style:italic;
+    transform: scale(0.9, 1.2);
+    position: relative;
+    bottom: 30px;
+    right: 40px;
+    text-decoration: underline;
+}
+.originals-container{
+    position: relative;
+    bottom: 100px;
+}
+.shop-by-category{
+    font-size: 2.1rem;
+    font-family: "AdihausDIN-CnBoldItalic","AdihausDIN Cn",Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   font-style:italic;
+    transform: scale(0.9, 1.2);
+    position: relative;
+   text-decoration: underline;
+    right: 30px;
+    top: 60px;
+}
