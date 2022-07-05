@@ -33,7 +33,6 @@ const Home1 = () => {
           src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enIN/Images/ParleyHPBIN_tcm209-881927.jpg"
           alt=""
         />
-
         <div className="text-wrapper1">
           <h1>TODAY'S ICONS, MADE FOR TOMORROW.</h1>
           <p className="introducing">

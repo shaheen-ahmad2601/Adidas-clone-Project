@@ -14,8 +14,8 @@ const Home2 = () => {
       <div className='heading'>POPULAR RIGHT NOW</div>
       <div className="ul-div">
           <ul className='ul-list'>
-              <li>FACE COVERS </li>
-              <li>WHITE SNEAKERS </li>
+              <li>FACE COVERS</li>
+              <li>WHITE SNEAKERS</li>
               <li>SUPERSTAR </li>
               <li>ADIDAS ORIGINALS </li>
               <li>ULTRABOOST</li>

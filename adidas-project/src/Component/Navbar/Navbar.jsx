@@ -71,9 +71,9 @@ const Navbar = () => {
           {/* </span> */}
 
           <div className="icon">
-            <i class="fa-solid fa-user fa-lg (63% increase)"></i>
-            <i class="fa-solid fa-heart fa-lg (63% increase)"></i>
-            <i class="fa-solid fa-cart-flatbed fa-lg (63% increase)"></i>
+            <i class="fa-solid fa-user fa-lg (62% increase)"></i>
+            <i class="fa-solid fa-heart fa-lg (62% increase)"></i>
+            <i class="fa-solid fa-cart-flatbed fa-lg (62% increase)"></i>
           </div>
         </div>
       </div>
