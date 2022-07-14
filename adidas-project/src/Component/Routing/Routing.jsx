@@ -5,6 +5,8 @@ import Mens from '../Products/Mens/Mens'
 import Women from '../Products/Women/Women'
 import Kids from "../Products/Kids/Kids"
 import MensProductList from '../Products/Mens/MensProductList'
+import SignUp from '../SignupSignin/SignUp'
+import Signin from '../SignupSignin/Signin'
 
 const Routing = () => {
   return (
@@ -15,6 +17,8 @@ const Routing = () => {
           <Route path="mensdata" element={<MensProductList/>}></Route>
           <Route path="/women" element={<Women/>}></Route>
           <Route path="/kids" element={<Kids/>}></Route>
+          <Route path="/signup" element={<SignUp/>}></Route>
+          <Route path="/signin" element={<Signin/>}></Route>
       </Routes>
     </div>
   )
