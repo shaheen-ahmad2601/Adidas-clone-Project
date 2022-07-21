@@ -44,7 +44,7 @@ const Cart = () => {
         </>
       })
     }
-     <button className="div1-btn2" onClick={() => navigate("/checkout")}> Checkout
+     <button className="div2-btn2" onClick={() => navigate("/checkout")}> Checkout
             <i class="fa-solid fa-arrow-right-long  "></i>
             </button>
   </div>;

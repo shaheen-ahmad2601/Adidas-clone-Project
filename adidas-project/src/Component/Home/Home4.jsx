@@ -3,6 +3,7 @@ import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "./Home4.css"
 
+
 const Home4 = () => {
   const productSlide = [
     {
@@ -35,6 +36,7 @@ const Home4 = () => {
     },
   
   ];
+ 
   return (
     <>
     <p className="best-of">BEST OF ADIDAS</p>
