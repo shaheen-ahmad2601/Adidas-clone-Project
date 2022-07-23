@@ -3,7 +3,7 @@ import mens from "../../../Assets/mens.mp4";
 import Navbar from "../../Navbar/Navbar";
 import "./Mens.css";
 import MensubComponent from "./MensubComponent";
-
+import { CartContext } from "../../../Context/CartContext";
 
 const Mens = () => {
   return (
