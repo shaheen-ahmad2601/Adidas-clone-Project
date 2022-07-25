@@ -1,70 +1,3 @@
-// import React from "react";
-// import "../Home/Home3.css";
-// import { CartContext } from "../../Context/CartContext"; 
-// import { useNavigate } from "react-router-dom";
-
-// const Home3 = (props) => {
-//   const navigate = useNavigate();
-//   const { onAdd } = props;
-//   const { cartProduct, setCartProduct } = React.useContext(CartContext);
-//   return (
-//       <>
-//       <p className='new-arrivals'>NEW ARRIVALS</p>
-       
-//        <div className="products-container1"  onClick={onAdd}>
-//       <div className="product-1" onClick={() => {
-//                   setCartProduct([...cartProduct])
-//                   navigate("/cart")
-//                 }
-//                 }>
-//         <img
-//           className="align-products"
-//           src="https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/f3e584ae50e144ddb007ae0b001beb55_9366/Adilette_Pride_Slides_Black_GX6389_01_standard.jpg"
-//           alt="running-shoes"
-//         />
-//         <p className="price-tag">₹4999.00</p>
-//         <p className="description">Ultraboost 4.5 DNA Shoes</p>
-//         <span className="title">Originals</span>
-//       </div>
-//       <div className="product-2">
-//         <img
-//           className="align-products"
-//           src="https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/c4eef76ad3664fb19a7dae1e00326612_9366/Superstar_Pride_Shoes_White_GX6395_01_standard.jpg"
-//           alt="running-shoes"
-//         />
-//         <p className="price-tag">₹2999.00</p>
-//         <p className="description">Stan Smith Shoes</p>
-//         <span className="title">Originals</span>
-//       </div>
-//       <div className="product-3">
-//         <img
-//           className="align-products"
-//           src="https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/bad26d803bca49aa8b26ae140150962d_9366/OZWEEGO_Shoes_Grey_HR1169_01_standard.jpg"
-//           alt="running-shoes"
-//         />
-//         <p className="price-tag">₹3500.00</p>
-//         <p className="description">Stan Smith Shoes</p>
-//         <span className="title">Originals</span>
-//       </div>
-//       <div className="product-4">
-//         <img
-//           className="align-products"
-//           src="https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/cdafc4c1e111445cadc2ae2800473416_9366/Adilette_Cork_Slides_Blue_GV7078_01_standard.jpg"
-//           alt="running-shoes"
-//         />
-//         <p className="price-tag">₹6999.00</p>
-//         <p className="description">Stan Smith Shoes</p>
-//         <span className="title">Originals</span>
-//       </div>
-//     </div>
-     
-//       </>
-    
-//   );
-// };
-
-// export default Home3;
-
 
 import React from "react";
 import "../Home/Home3.css";
@@ -76,29 +9,6 @@ import { CartContext } from "../../Context/CartContext";
 
 const Home3 = (props) => {
 
-
-  // const data1 = [
-  //   {
-  //     image:
-  //       "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/1d1ac6d6fd3045f7ad33ae8f0136b595_9366/jaysaw-reflective-m.jpg",
-  //     category: "SNEAKERS",
-  //   },
-  //   {
-  //     image:
-  //       "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/e0826ccc3ea24d7d80f2ae1c015eb659_9366/m-bl-ft-pt.jpg",
-  //     category: "PANTS",
-  //   },
-  //   {
-  //     image:
-  //       "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/313d772351f14d289074ae2100a85d5d_9366/m-mel-hd.jpg",
-  //     category: "HOODIES & SWEATSHIRT",
-  //   },
-  //   {
-  //     image:
-  //       "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/22e21c736b9042cda230adaa00a35bf0_9366/small-logo-single-jersey-tee.jpg",
-  //     category: "UPPER",
-  //   },
-  // ];
   const data2 = [
     {
       image:
@@ -164,18 +74,6 @@ const Home3 = (props) => {
   const { cartProduct, setCartProduct } = React.useContext(CartContext);
   return (
     <>
-      {/* <div className="men-category">
-        {data1.map((el) => (
-          <>
-            <div className="men-container" onClick={onAdd}>
-              <img className="men-category-img" src={el.image} alt="" />
-              <p className="men- category-title">{el.category}</p>
-            </div>
-          </>
-        ))}
-      </div> */}
-
-      {/* ------------------------------ */}
       <div className="originals-container">
         <p className="men-originals">MEN ORIGINALS</p>
         <Slide>
