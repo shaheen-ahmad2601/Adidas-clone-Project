@@ -13,7 +13,8 @@ const Home4 = (props) => {
   const { cartProduct, setCartProduct } = React.useContext(CartContext);
   return (
     <>
-    //just adding this component to make more component but actually I don't need this to render the project
+    //ignore this component.
+    //just adding this component to make more component but actually I don't need this to render the project.
     </>
   );
 };
