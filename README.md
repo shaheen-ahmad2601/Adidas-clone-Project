@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-This is a clone of Adidas website and this is an Individual project. So I have created this webiste using React JS and Css and I have tried some of the frequently used functionality. Adidas Clone is a MERN Stack e-commerce web application that allows you to buy shoes & clothes online with payment gateway integration. It has a variety of categories, just visit the product listing page and you will see all the products, apply filters as per your need and in just a few clicks you can buy any products from the website. This project is just for educational purpose.
+Its a clone of Adidas website and this is an Individual project. So I have created this webiste using React JS and Css and I have tried some of the frequently used functionality. Adidas Clone is a MERN Stack e-commerce web application that allows you to buy shoes & clothes online with payment gateway integration. It has a variety of categories, just visit the product listing page and you will see all the products, apply filters as per your need and in just a few clicks you can buy any products from the website. This project is just for educational purpose.
 </td>
 </tr>
 <tr>
